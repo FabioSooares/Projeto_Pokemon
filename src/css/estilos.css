@@ -35,6 +35,15 @@ main .cartao-pokemon:hover {
 	cursor: pointer;
 }
 
+@media (max-width: 768px) {
+	main .listagem-pokemon {
+	  justify-content: space-between;
+	}
+	main .cartao-pokemon {
+	  width: 45%;
+	}
+  }
+
 main {
 	padding: 25px;
 }
